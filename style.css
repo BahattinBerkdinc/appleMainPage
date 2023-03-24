@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    width: 20px;
+    height: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(85, 85, 85);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+header ul li a {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(162, 161, 161);
+
+
+}
+
+header ul li:hover a {
+    color: white;
+}
+
+
+/* ******* iphone14 ***** */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+
+    background-color: black;
+}
+
+section.iphone14 {
+    background-color: white;
+}
+
+.iphone14 .iphone14_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.iphone14 .iphone14_content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.iphone14 .iphone14_content p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+    letter-spacing: .4px;
+}
+
+.iphone14 .iphone14_content .satis {
+    opacity: .4;
+    font-size: 1.2rem;
+
+}
+
+.iphone14 .iphone14_content .links a {
+    margin: 1.5rem;
+    text-decoration: underline;
+}
+
+
+/* *********** iphone14Pro ******* */
+
+
+
+.iphone14Pro .iphone14Pro_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.iphone14Pro .iphone14Pro_content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+    color: white;
+}
+
+.iphone14Pro .iphone14Pro_content p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+    letter-spacing: .4px;
+
+    color: white;
+}
+
+.iphone14Pro .iphone14Pro_content .satis {
+    opacity: .4;
+    font-size: 1.2rem;
+
+}
+
+.iphone14Pro .iphone14Pro_content .links a {
+    margin: 1.5rem;
+    color: rgb(73, 73, 214);
+    text-decoration: underline;
+}
+
+
+/* ****** watch ********* */
+
+
+
+
+.watch .watch_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.watch .watch_content h2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.watch .watch_content h2 {
+    font-size: 3rem;
+    margin-bottom: .1rem;
+
+    display: flex;
+
+    color: white;
+}
+
+.watch .watch_content h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+    letter-spacing: 2px;
+
+    color: red;
+}
+
+.watch .watch_content p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+    letter-spacing: .4px;
+
+    color: white;
+}
+
+.watch .watch_content .satis {
+    opacity: .4;
+    font-size: 1.2rem;
+
+}
+
+.watch .watch_content .links a {
+    margin: 1.5rem;
+    color: rgb(73, 73, 214);
+    text-decoration: underline;
+}
